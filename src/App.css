@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'GistLight';
+  src: url(GistLight.otf);
+}
+@font-face {
+  font-family: 'orange juice 2.0';
+  src: url(orange\ juice\ 2.0.ttf);
+}
+
+.App {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family:'GistLight';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 { 
+  color: #800080	; 
+  font-size: 88px; 
+  padding-bottom: 10px; 
+  font-family: 'orange juice 2.0';
+}
+
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid white;
+}
+button {color : white; background-color: green;}
+
+/* h3:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+} */
